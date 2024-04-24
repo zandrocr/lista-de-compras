@@ -1,0 +1,14 @@
+#button {
+	border: none;
+	margin: 20px 0 0 0;
+	background: var(--second-color);
+	color: var(--wite-color);
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#button:active {
+	transform: scale(1.1);
+}
