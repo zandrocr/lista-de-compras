@@ -1,3 +1,7 @@
+import { SearchBar } from "../../components/search-bar";
+
 export function Home() {
-	return <h1>Ola</h1>
+	return <div>
+		<SearchBar/>
+	</div>
 }

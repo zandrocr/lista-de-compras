@@ -16,8 +16,9 @@ export function AuthProvider({ children }) {
 
 		if (userToken && userDb) {
 			setUser(JSON.parse(userDb))
-			setLoading(false)
 		}
+
+		return setLoading(false)
 	}, [])
 
 	async function login(username, password) {
