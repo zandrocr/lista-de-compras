@@ -5,7 +5,7 @@ export function SearchBar() {
 	const [array, setArray] = useState()
 
 	return (
-		<div>
+		<div>			
 			<Input placeholder="Digite o produto que deseja" />
 		</div>
 	)
