@@ -1,3 +1,9 @@
+import { Input } from "../input"
+
 export function SearchBar() {
-	return <></>
+	return (
+		<div>
+			<Input placeholder='Digite o produto que deseja'/>
+		</div>
+	)
 }

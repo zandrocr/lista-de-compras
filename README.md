@@ -36,4 +36,3 @@ Recebe dois números e retorna a sua soma.
 
 - [@zandrocr](https://github.com/zandrocr)
 
-# lista-de-compras
